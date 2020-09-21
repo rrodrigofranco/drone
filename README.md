@@ -25,7 +25,7 @@ Os codigos estao organizados nas seguintes pastas:
 2) control - Todos os codigos relacionados ao controle do drone
 3) general - Codigos gerais
 4) sniffes - sniffes da comunicao entre o drone e o aplicativo 
-# Terminais úteis para interceptar tráfico de redes
+# Terminais Úteis
 1) Interceptar a rede wlan0 - tcpdump -vv -nn -i wlan0
 2) Verificar processos que podem conflitar no monitoramento - airmon-ng check 
 3) Desabilitar processos que podem confiltar no monitoramento - airmon-ng check kill
