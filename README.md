@@ -2,7 +2,7 @@
 O JJRC H66 é um drone barato que contem uma câmera 720p embutida. O código no repositório permite controlar totalmente o movimento do drone usando um joystick e receber a imagem da câmera do drone (que pode ser usado para processamento de imagens). O código foi escrito em python 3 e testado em Kali Linux 20.02.
 ![alt text](https://sites.google.com/site/negocindosica/jjrc%20h68.jpg)
 
-# packages necessarios:
+# Instalação Packages:
 sudo apt-get update
 1) gstreamer
 sudo apt-get install gstreamer1.0-tools
