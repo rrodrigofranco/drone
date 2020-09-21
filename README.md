@@ -5,16 +5,16 @@ https://sites.google.com/site/negocindosica/jjrc%20h68.jpg
 
 # Instalação Packages:
 sudo apt-get update
-1) gstreamer
+1) gstreamer -
 sudo apt-get install gstreamer1.0-tools
 sudo apt-get install -y gstreamer1.0-plugins-bad
-2) pygame (Para o uso do Joystick)
+2) pygame -
 sudo apt-get install python3-pygame
-3) GUI
+3) GUI -
 sudo apt-get install -y qt5-default libvtk6-dev
-4) tkinter e alguns outros compontentes
+4) tkinter e alguns outros compontentes - 
 sudo apt-get install -y python-dev  python-tk  pylint  python-numpy  python3-dev python3-tk pylint3 python3-numpy flake8
-5) opencv
+5) opencv -
 sudo apt-get install libopencv-dev python3-opencv
 # Como executar:
 1) Conecte no wifi do drone
