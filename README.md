@@ -1,6 +1,6 @@
 # Drone JJRC H68
 O JJRC H68 é um drone barato que contém uma câmera 720p embutida. O código no repositório permite controlar totalmente o movimento do drone usando um joystick e receber a imagem da câmera (que pode ser usado para processamento de imagens). O código foi escrito em python 3 e testado no Kali Linux 20.02.
-Para analisar o tráfico dos sinais, conectei meu celular no app do drone e fiz uma interceptação man-in-the-middle usando o airodump-ng junto com o Wireshark e descobri que o aplicativo usa o protocolo UDP para enviar os comandos de controle ao drone e o protocolo TCP para enviar vídeos.
+Para analisar o tráfico, conectei meu celular no app do drone e fiz uma interceptação man-in-the-middle usando o airodump-ng junto com o Wireshark e descobri que o aplicativo usa o protocolo UDP para enviar os comandos de controle e o protocolo TCP para enviar vídeos.
 https://sites.google.com/site/negocindosica/jjrc%20h68.jpg
 
 # Instalação Packages:
