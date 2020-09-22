@@ -3,9 +3,9 @@ import socket
 import sys
 import time
 
-TCP_IP="172.16.10.1" # TODO: read this value from config file
-TCP_PORT=8888 # TODO: read this value from config file
-BUFFER_SIZE = 4096 # TODO: read this value from config file
+TCP_IP="172.16.10.1" # IP da rede
+TCP_PORT=8888 # Porta que usa comunicação TCP
+BUFFER_SIZE = 4096 # TODO: Tamanho do Buffer
 
 try:
     TCP_sock=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
