@@ -16,7 +16,7 @@ sudo apt-get install -y qt5-default libvtk6-dev
 sudo apt-get install -y python-dev  python-tk  pylint  python-numpy  python3-dev python3-tk pylint3 python3-numpy flake8
 5) opencv -
 sudo apt-get install libopencv-dev python3-opencv
-# Como executar:
+# Como executar?
 1) Conecte no wifi do drone
 2) Execute o arquivo: execute_me.py
 # O que tem nesse repositório?
